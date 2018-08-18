@@ -24,7 +24,7 @@ public class MyApp extends Application{
     }
 }
 ```
-4. now you can call the SharedPrefs methods from any class(Activity,Fragment,etc..) inside your Application
+5. now you can call the SharedPrefs methods from any class(Activity,Fragment,etc..) inside your Application
 
 
 ```
