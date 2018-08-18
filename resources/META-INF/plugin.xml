@@ -1,0 +1,23 @@
+<idea-plugin>
+  <id>com.devlomi.sharedprefsmanager</id>
+  <name>SharedPrefsManager</name>
+  <version>1.0.0</version>
+  <vendor email="contact@devlomi.com" url="http://www.devlomi.com">AbdulAlim Rajjoub</vendor>
+
+  <description><![CDATA[
+   A plugin to Generate SharedPreferences methods easily
+    ]]></description>
+
+  <idea-version since-build="93.13"/>
+
+  <depends>com.intellij.modules.lang</depends>
+
+  <actions>
+    <action id="action.SharedPrefsAction" class="action.SharedPrefsAction" text="Generate SharedPrefs">
+      <add-to-group group-id="GenerateGroup" anchor="last"/>
+    </action>
+  </actions>
+
+  <extensions defaultExtensionNs="com.intellij"/>
+
+</idea-plugin>
