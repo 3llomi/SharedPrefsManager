@@ -4,7 +4,7 @@ A plugin that Generates SharedPreferences methods for you
 
 ## Demo
 <p align="center">
-  <img src="demo.GIF" height="500" alt="demo image" />
+  <img src="demo.gif" height="600" alt="demo image" />
 </p>
 
 
