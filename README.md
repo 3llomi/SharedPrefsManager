@@ -11,7 +11,7 @@ A plugin that Generates SharedPreferences methods for you
 
 
 ## Getting Started
-1. Download and Install the plugin
+1. Download and Install the [plugin](https://plugins.jetbrains.com/plugin/11034-sharedprefsmanager) 
 2. Create a new Class then Generate the methods by going to `Generate -> Generate SharedPrefs`
 3. add the fields you want in the Dialog then click on 'Generate' to generate the required methods
 4. Create an `Application` Subclass and call the method `init()` inside `onCreate()`
@@ -23,6 +23,14 @@ public class MyApp extends Application{
         SharedPrefsManager.init(this);
     }
 }
+```
+after that go to `AndroidManifest` and add the Application Subclass that you've created 
+```xml
+ <application
+        android:name=".MyApp"
+        ......
+    </application>
+
 ```
 5. now you can call the SharedPrefs methods from any class(Activity,Fragment,etc..) inside your Application
 
